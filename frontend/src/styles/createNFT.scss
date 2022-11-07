@@ -1,0 +1,26 @@
+.create-container {
+  .sampleNFT-img {
+    height: auto;
+    max-height: 400px;
+    /* width: 100%; */
+  /*   max-width: 596px; */
+  object-fit: cover;
+  }
+
+  .upload-img {
+    height: 203px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .upload-label {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    font-size: 16px;
+    pointer-events: none;
+    font-family: Arial;
+  }
+}
